@@ -1,5 +1,6 @@
 let instructor = {
-  name: "Menawer",
+  name: "Menawer"
+  ,
   courses: ["JavaScript", "React", "PHP"],
   githubAccount: {
     username: "careless10",
@@ -9,3 +10,11 @@ let instructor = {
     console.log("Hi, I'm Menawer");
   },
 };
+ 
+console.log(instructor.name);
+
+console.log(instructor.courses[0]);
+
+console.log(instructor.githubAccount.username);
+
+instructor["sayHello"];
